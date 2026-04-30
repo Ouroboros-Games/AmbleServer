@@ -2551,3 +2551,13 @@ java.lang.IllegalArgumentException: null
 [30Apr2026 20:17:24.120] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
 [30Apr2026 20:17:24.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
 [30Apr2026 20:17:24.120] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/ae2:spatial_storage
+[30Apr2026 20:21:07.108] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[30Apr2026 20:21:07.194] [Render thread/INFO] [ChunkBuilder/]: Started 4 worker threads
+[30Apr2026 20:21:07.244] [Render thread/WARN] [flywheel/]: Flywheel backend fell back from 'flywheel:indirect' to 'flywheel:instancing'
+[30Apr2026 20:21:07.277] [Render thread/INFO] [Sodium/]: Flushed changes to Minecraft configuration
+[30Apr2026 20:21:08.498] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 32, from 24
+[30Apr2026 20:21:08.512] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[30Apr2026 20:21:08.520] [Render thread/INFO] [ChunkBuilder/]: Started 4 worker threads
+[30Apr2026 20:21:27.605] [Worker-Main-40/ERROR] [net.minecraft.world.item.ItemStack/]: Tried to load invalid item: 'Item must not be minecraft:air'
+[30Apr2026 20:21:27.606] [Worker-Main-40/ERROR] [net.minecraft.world.item.ItemStack/]: Tried to load invalid item: 'Item must not be minecraft:air'
+[30Apr2026 20:21:27.606] [Worker-Main-40/ERROR] [net.minecraft.world.item.ItemStack/]: Tried to load invalid item: 'Item must not be minecraft:air'

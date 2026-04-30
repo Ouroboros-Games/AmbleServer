@@ -1,2 +1,17 @@
 /minecraft/saves
 /minecraft/logs
+/minecraft/exposures
+/minecraft/essential
+/minecraft/schematics
+/minecraft/screenshots
+/minecraft/downloads
+/mrpack
+/minecraft/crash-reports
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/options.txt
+minecraft/ponders_watched.json
+minecraft/icon.png
+minecraft/command_history.txt
+minecraft/servers.dat
+minecraft.servers.dat_old

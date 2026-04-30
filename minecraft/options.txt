@@ -22,7 +22,7 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:24
+renderDistance:32
 simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
@@ -198,6 +198,11 @@ key_tfmg.keyinfo.transmission_shift_down:key.keyboard.c
 key_tfmg.keyinfo.custom_button:key.keyboard.b
 key_tfmg.keyinfo.engine_start:key.keyboard.i
 key_key.ftbteams.open_gui:key.keyboard.unknown
+key_powergrid.keyinfo.rotate_component:key.keyboard.r
+key_powergrid.keyinfo.place_trace:key.keyboard.t
+key_powergrid.keyinfo.delete_area:key.keyboard.d
+key_powergrid.keyinfo.pick_component:key.keyboard.s
+key_powergrid.keyinfo.switch_layer:key.keyboard.x
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.unknown

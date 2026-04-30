@@ -2524,3 +2524,21 @@ java.lang.IllegalArgumentException: null
 [30Apr2026 20:07:29.666] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
 [30Apr2026 20:07:29.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
 [30Apr2026 20:07:29.666] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/ae2:spatial_storage
+[30Apr2026 20:08:47.963] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30Apr2026 20:08:48.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30Apr2026 20:08:48.004] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:overworld
+[30Apr2026 20:08:48.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30Apr2026 20:08:48.041] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_end
+[30Apr2026 20:08:48.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Apr2026 20:08:48.043] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Apr2026 20:08:48.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
+[30Apr2026 20:08:48.046] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/ae2:spatial_storage
+[30Apr2026 20:10:05.413] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30Apr2026 20:10:05.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30Apr2026 20:10:05.440] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:overworld
+[30Apr2026 20:10:05.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30Apr2026 20:10:05.463] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_end
+[30Apr2026 20:10:05.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Apr2026 20:10:05.467] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Apr2026 20:10:05.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
+[30Apr2026 20:10:05.468] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/ae2:spatial_storage

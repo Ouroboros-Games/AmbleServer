@@ -2561,3 +2561,64 @@ java.lang.IllegalArgumentException: null
 [30Apr2026 20:21:27.605] [Worker-Main-40/ERROR] [net.minecraft.world.item.ItemStack/]: Tried to load invalid item: 'Item must not be minecraft:air'
 [30Apr2026 20:21:27.606] [Worker-Main-40/ERROR] [net.minecraft.world.item.ItemStack/]: Tried to load invalid item: 'Item must not be minecraft:air'
 [30Apr2026 20:21:27.606] [Worker-Main-40/ERROR] [net.minecraft.world.item.ItemStack/]: Tried to load invalid item: 'Item must not be minecraft:air'
+[30Apr2026 20:23:26.057] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:overworld
+[30Apr2026 20:23:26.122] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_end
+[30Apr2026 20:23:26.122] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Apr2026 20:23:26.122] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/ae2:spatial_storage
+[30Apr2026 20:23:35.371] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30Apr2026 20:23:35.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30Apr2026 20:23:35.413] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:overworld
+[30Apr2026 20:23:35.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30Apr2026 20:23:35.459] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_end
+[30Apr2026 20:23:35.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Apr2026 20:23:35.459] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Apr2026 20:23:35.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
+[30Apr2026 20:23:35.459] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/ae2:spatial_storage
+[30Apr2026 20:28:19.121] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30Apr2026 20:28:19.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30Apr2026 20:28:19.172] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:overworld
+[30Apr2026 20:28:19.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30Apr2026 20:28:19.253] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_end
+[30Apr2026 20:28:19.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Apr2026 20:28:19.254] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Apr2026 20:28:19.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
+[30Apr2026 20:28:19.254] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/ae2:spatial_storage
+[30Apr2026 20:28:19.874] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[30Apr2026 20:28:19.878] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[30Apr2026 20:28:19.894] [Render thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Removed all overlays.
+[30Apr2026 20:28:19.894] [Render thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: All events have been closed.
+[30Apr2026 20:28:19.898] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[30Apr2026 20:28:19.899] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[30Apr2026 20:28:19.901] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
+[30Apr2026 20:28:19.908] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 8.463 milliseconds
+[30Apr2026 20:28:19.969] [Render thread/INFO] [voicechat/]: [voicechat] Clearing audio channels
+[30Apr2026 20:28:20.009] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ouro_TheArtist lost connection: Disconnected
+[30Apr2026 20:28:20.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ouro_TheArtist left the game
+[30Apr2026 20:28:20.010] [Render thread/INFO] [voicechat/]: [voicechat] Stopping microphone thread
+[30Apr2026 20:28:20.019] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ouro_TheArtist
+[30Apr2026 20:28:20.050] [Render thread/INFO] [voicechat/]: [voicechat] Disconnecting voicechat
+[30Apr2026 20:28:20.057] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[30Apr2026 20:28:20.110] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Stopping train listener...
+[30Apr2026 20:28:20.110] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Stopping Advanced Display Data Manager...
+[30Apr2026 20:28:20.110] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: All events have been closed.
+[30Apr2026 20:28:20.111] [Server thread/INFO] [DragonLib Networking System/]: Shutting down network threads. Please wait...
+[30Apr2026 20:28:20.112] [Server thread/INFO] [DragonLib Networking System/]: Network threads shut down. Took 1ms.
+[30Apr2026 20:28:20.165] [Advanced Display Data Manager/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Advanced Display Data Manager has been stopped.
+[30Apr2026 20:28:20.195] [CRN Train Listener/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Train listener has been stopped.
+[30Apr2026 20:28:20.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30Apr2026 20:28:20.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30Apr2026 20:28:20.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30Apr2026 20:28:21.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30Apr2026 20:28:21.751] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:overworld
+[30Apr2026 20:28:22.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30Apr2026 20:28:22.033] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_end
+[30Apr2026 20:28:22.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Apr2026 20:28:22.042] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
+[30Apr2026 20:28:22.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
+[30Apr2026 20:28:22.056] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/ae2:spatial_storage
+[30Apr2026 20:28:22.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[30Apr2026 20:28:22.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30Apr2026 20:28:22.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Apr2026 20:28:22.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[30Apr2026 20:28:22.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[30Apr2026 20:28:22.169] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads

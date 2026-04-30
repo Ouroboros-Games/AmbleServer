@@ -1,0 +1,41 @@
+/time set day
+/locate biome minecraft:plains
+/time set day
+/gamerule doDaylightCycle false
+/weather clear
+/tp Cosmic_Fires
+/tp Ember808
+/locate biome minecraft:ocean
+/tp @s 1273 269 513
+/tp Cosmic_Fires
+/give Ember808 dirt 6400
+/bookshelf font say runelic:runelic BAZINGA
+/bookshelf font say runelic:runelic this sentence is false
+/difficulty peaceful
+/exposure expose
+/tp Cosmic_Fires
+/playsound aeronautics:music.adrift master @s ~ ~ ~ 1
+/stopsound @s *
+/stopsound @s * aeronautics:music.adrift
+/playsound aeronautics:item.cloud_skipper_transform master @s ~ ~ ~ 1
+/datapack list
+/reload
+/weather clear
+/reload
+/weather clear
+/reload
+/ftbteams
+/ftbteams info
+/ftbteams party create Test
+/ftbteams party settings
+/ftbteams party settings ftbteams:free_to_join
+/enchant @s minecraft:depth_strider 4
+/enchant @s minecraft:depth_strider 3
+/gamerule doDaylightCycle false
+/gamerule doWeatherCycle false
+/weather rain
+/weather clear
+/reload
+/none
+/tool none
+/sable remove @e

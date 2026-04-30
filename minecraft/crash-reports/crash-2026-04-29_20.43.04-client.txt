@@ -1,0 +1,206 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 2026-04-29 20:43:04
+Description: Initializing game
+
+org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-11.0.5.jar:11.0.5+main.901c6ea8] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.5.jar:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.5.jar:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.5.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214) ~[securejarhandler-3.0.8.jar:?] {}
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.RenderStateShard.<clinit>(RenderStateShard.java:261) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:veil.rendertype.mixins.json:accessor.RenderStateShardAccessor from mod veil,pl:mixin:A}
+	at TRANSFORMER/figura@0.1.5+1.21.1/org.figuramc.figura.model.rendering.texture.RenderTypes.<clinit>(RenderTypes.java:30) ~[figura-0.1.5+1.21.1-neoforge-mc.jar%23310!/:?] {re:classloading}
+	at TRANSFORMER/figura@0.1.5+1.21.1/org.figuramc.figura.lua.docs.FiguraListDocs$3.<init>(FiguraListDocs.java:56) ~[figura-0.1.5+1.21.1-neoforge-mc.jar%23310!/:?] {re:classloading}
+	at TRANSFORMER/figura@0.1.5+1.21.1/org.figuramc.figura.lua.docs.FiguraListDocs.<clinit>(FiguraListDocs.java:55) ~[figura-0.1.5+1.21.1-neoforge-mc.jar%23310!/:?] {re:mixin,re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.InputConstants$Type.handler$emf000$figura$addKey(InputConstants.java:515) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,re:classloading,pl:mixin:APP:figura-common.mixins.json:input.InputConstantsTypeMixin from mod figura,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.InputConstants$Type.addKey(InputConstants.java) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,re:classloading,pl:mixin:APP:figura-common.mixins.json:input.InputConstantsTypeMixin from mod figura,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.InputConstants$Type.<clinit>(InputConstants.java:214) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,re:classloading,pl:mixin:APP:figura-common.mixins.json:input.InputConstantsTypeMixin from mod figura,pl:mixin:A}
+	at TRANSFORMER/neoforge@21.1.228/net.neoforged.neoforge.client.settings.KeyModifier$1.<clinit>(KeyModifier.java:20) ~[neoforge-21.1.228-universal.jar%23269!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.228/net.neoforged.neoforge.client.settings.KeyModifier.<clinit>(KeyModifier.java:19) ~[neoforge-21.1.228-universal.jar%23269!/:?] {re:classloading}
+	at java.base/jdk.internal.misc.Unsafe.ensureClassInitialized0(Native Method) ~[?:?] {}
+	at java.base/jdk.internal.misc.Unsafe.ensureClassInitialized(Unsafe.java:1160) ~[?:?] {}
+	at java.base/jdk.internal.reflect.MethodHandleAccessorFactory.ensureClassInitialized(MethodHandleAccessorFactory.java:300) ~[?:?] {}
+	at java.base/jdk.internal.reflect.MethodHandleAccessorFactory.newMethodAccessor(MethodHandleAccessorFactory.java:71) ~[?:?] {}
+	at java.base/jdk.internal.reflect.ReflectionFactory.newMethodAccessor(ReflectionFactory.java:159) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.acquireMethodAccessor(Method.java:726) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[?:?] {}
+	at java.base/java.lang.Class.getEnumConstantsShared(Class.java:4014) ~[?:?] {re:mixin}
+	at java.base/java.lang.System$2.getEnumConstantsShared(System.java:2371) ~[?:?] {}
+	at java.base/java.util.EnumMap.getKeyUniverse(EnumMap.java:750) ~[?:?] {}
+	at java.base/java.util.EnumMap.<init>(EnumMap.java:138) ~[?:?] {}
+	at TRANSFORMER/neoforge@21.1.228/net.neoforged.neoforge.client.settings.KeyMappingLookup.<clinit>(KeyMappingLookup.java:20) ~[neoforge-21.1.228-universal.jar%23269!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.KeyMapping.<clinit>(KeyMapping.java:19) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:controlling.mixins.json:AccessKeyMapping from mod controlling,pl:mixin:APP:simulated.mixins.json:accessor.KeyMappingsAccessor from mod simulated,pl:mixin:APP:exposure-common.mixins.json:client.KeyMappingMixin from mod exposure,pl:mixin:APP:railways-common.mixins.json:conductor_possession.AccessorKeyMapping from mod railways,pl:mixin:APP:figura-common.mixins.json:input.KeyMappingAccessor from mod figura,pl:mixin:APP:figura-common.mixins.json:input.KeyMappingMixin from mod figura,pl:mixin:APP:mixins.essential.json:client.options.KeyBindingAccessor from mod (unknown),pl:mixin:APP:mixins.essential.json:client.settings.Mixin_FixKeyBindingCategorySortingNPE from mod (unknown),pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Options.<init>(Options.java:506) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs.mixins.json:OptionsMixin from mod kubejs,pl:mixin:APP:mixins/common/nochatreports.mixins.json:client.MixinOptions from mod nochatreports,pl:mixin:APP:flywheel.backend.mixins.json:OptionsMixin from mod flywheel,pl:mixin:APP:mixins.essential.json:client.options.GameOptionsAccessor from mod (unknown),pl:mixin:APP:mixins.essential.json:client.options.MixinGameOptions from mod (unknown),pl:mixin:APP:mixins.essential.json:client.settings.Mixin_UnbindConflictingKeybinds_OnLoad from mod (unknown),pl:mixin:APP:mixins.essential.json:client.settings.Mixin_UnbindConflictingKeybinds_OnChange from mod (unknown),pl:mixin:APP:mixins.essential.json:cosmetics.capes.Mixin_RedirectVanillaCapeSetting from mod (unknown),pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:446) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bookshelf.mixins.json:access.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:veil.debug.mixins.json:client.DebugMinecraftMixin from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineMinecraftMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.MinecraftMixin from mod veil,pl:mixin:APP:simulated.mixins.json:handle.MinecraftMixin from mod simulated,pl:mixin:APP:exposure-common.mixins.json:client.MinecraftMixin from mod exposure,pl:mixin:APP:beansbackpacks.mixins.json:client.MinecraftMixin from mod beansbackpacks,pl:mixin:APP:resourcefulconfig.mixins.json:client.MinecraftMixin from mod resourcefulconfig,pl:mixin:APP:kubejs.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:aeronautics.mixins.json:custom_situational_music.MinecraftMixin from mod aeronautics,pl:mixin:APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,pl:mixin:APP:blueprint.mixins.json:client.MinecraftMixin from mod blueprint,pl:mixin:APP:dragonlib.mixins.json:MinecraftMixin from mod dragonlib,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:octolib-common.mixins.json:MinecraftMixin from mod octolib,pl:mixin:APP:railways-common.mixins.json:conductor_possession.MixinMinecraft from mod railways,pl:mixin:APP:mixins/common/nochatreports.mixins.json:client.MixinMinecraft from mod nochatreports,pl:mixin:APP:ae2.mixins.json:PickColorMixin from mod ae2,pl:mixin:APP:flywheel.impl.mixins.json:MinecraftMixin from mod flywheel,pl:mixin:APP:ponder-common.mixins.json:client.WindowResizeMixin from mod ponder,pl:mixin:APP:create.mixins.json:accessor.MinecraftAccessor from mod create,pl:mixin:APP:sable.mixins.json:camera.new_camera_types.MinecraftMixin from mod sable,pl:mixin:APP:sable.mixins.json:plot.MinecraftMixin from mod sable,pl:mixin:APP:sable.mixins.json:punching.MinecraftMixin from mod sable,pl:mixin:APP:figura-common.mixins.json:MinecraftAccesor from mod figura,pl:mixin:APP:figura-common.mixins.json:MinecraftMixin from mod figura,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit from mod (unknown),pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks from mod (unknown),pl:mixin:APP:mixins.essential.json:client.MixinMinecraft from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInScreensThatAllowPlayerMovement from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld from mod (unknown),pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending from mod (unknown),pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent_Final from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_AllowMovementDuringScreens_HandleKeybinds from mod (unknown),pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.MinecraftAccessor from mod (unknown),pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo from mod (unknown),pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMainMixin from mod veil,pl:mixin:A,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23147!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23147!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.42.jar%23147!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23147!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) [ForgeWrapper-prism-2025-12-07.jar:prism-2025-12-07] {}
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) [NewLaunch.jar:?] {}
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) [NewLaunch.jar:?] {}
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) [NewLaunch.jar:?] {}
+Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [figura-common.mixins.json:render.TextureAtlasAccessor from mod figura] from phase [DEFAULT] in config [figura-common.mixins.json] FAILED during APPLY
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:638) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:589) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	... 59 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Incompatible @Invoker getWidth (for getWidth()I) in figura-common.mixins.json:render.TextureAtlasAccessor from mod figura previously written by net.caffeinemc.mods.sodium.mixin.core.render.texture.TextureAtlasAccessor (for width:I) [ -> ACCESSOR Applicator Phase -> figura-common.mixins.json:render.TextureAtlasAccessor from mod figura -> Apply Accessors]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.isAlreadyMerged(MixinApplicatorStandard.java:578) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.mergeMethod(MixinApplicatorStandard.java:488) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyAccessors(MixinApplicatorStandard.java:764) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:320) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	... 59 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-11.0.5.jar:11.0.5+main.901c6ea8] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.5.jar:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.5.jar:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.5.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214) ~[securejarhandler-3.0.8.jar:?] {}
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.RenderStateShard.<clinit>(RenderStateShard.java:261) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:veil.rendertype.mixins.json:accessor.RenderStateShardAccessor from mod veil,pl:mixin:A}
+	at TRANSFORMER/figura@0.1.5+1.21.1/org.figuramc.figura.model.rendering.texture.RenderTypes.<clinit>(RenderTypes.java:30) ~[figura-0.1.5+1.21.1-neoforge-mc.jar%23310!/:?] {re:classloading}
+	at TRANSFORMER/figura@0.1.5+1.21.1/org.figuramc.figura.lua.docs.FiguraListDocs$3.<init>(FiguraListDocs.java:56) ~[figura-0.1.5+1.21.1-neoforge-mc.jar%23310!/:?] {re:classloading}
+	at TRANSFORMER/figura@0.1.5+1.21.1/org.figuramc.figura.lua.docs.FiguraListDocs.<clinit>(FiguraListDocs.java:55) ~[figura-0.1.5+1.21.1-neoforge-mc.jar%23310!/:?] {re:mixin,re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.InputConstants$Type.handler$emf000$figura$addKey(InputConstants.java:515) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,re:classloading,pl:mixin:APP:figura-common.mixins.json:input.InputConstantsTypeMixin from mod figura,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.InputConstants$Type.addKey(InputConstants.java) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,re:classloading,pl:mixin:APP:figura-common.mixins.json:input.InputConstantsTypeMixin from mod figura,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.platform.InputConstants$Type.<clinit>(InputConstants.java:214) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,re:classloading,pl:mixin:APP:figura-common.mixins.json:input.InputConstantsTypeMixin from mod figura,pl:mixin:A}
+	at TRANSFORMER/neoforge@21.1.228/net.neoforged.neoforge.client.settings.KeyModifier$1.<clinit>(KeyModifier.java:20) ~[neoforge-21.1.228-universal.jar%23269!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.228/net.neoforged.neoforge.client.settings.KeyModifier.<clinit>(KeyModifier.java:19) ~[neoforge-21.1.228-universal.jar%23269!/:?] {re:classloading}
+	at java.base/jdk.internal.misc.Unsafe.ensureClassInitialized0(Native Method) ~[?:?] {}
+	at java.base/jdk.internal.misc.Unsafe.ensureClassInitialized(Unsafe.java:1160) ~[?:?] {}
+	at java.base/jdk.internal.reflect.MethodHandleAccessorFactory.ensureClassInitialized(MethodHandleAccessorFactory.java:300) ~[?:?] {}
+	at java.base/jdk.internal.reflect.MethodHandleAccessorFactory.newMethodAccessor(MethodHandleAccessorFactory.java:71) ~[?:?] {}
+	at java.base/jdk.internal.reflect.ReflectionFactory.newMethodAccessor(ReflectionFactory.java:159) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.acquireMethodAccessor(Method.java:726) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[?:?] {}
+	at java.base/java.lang.Class.getEnumConstantsShared(Class.java:4014) ~[?:?] {re:mixin}
+	at java.base/java.lang.System$2.getEnumConstantsShared(System.java:2371) ~[?:?] {}
+	at java.base/java.util.EnumMap.getKeyUniverse(EnumMap.java:750) ~[?:?] {}
+	at java.base/java.util.EnumMap.<init>(EnumMap.java:138) ~[?:?] {}
+	at TRANSFORMER/neoforge@21.1.228/net.neoforged.neoforge.client.settings.KeyMappingLookup.<clinit>(KeyMappingLookup.java:20) ~[neoforge-21.1.228-universal.jar%23269!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.KeyMapping.<clinit>(KeyMapping.java:19) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:controlling.mixins.json:AccessKeyMapping from mod controlling,pl:mixin:APP:simulated.mixins.json:accessor.KeyMappingsAccessor from mod simulated,pl:mixin:APP:exposure-common.mixins.json:client.KeyMappingMixin from mod exposure,pl:mixin:APP:railways-common.mixins.json:conductor_possession.AccessorKeyMapping from mod railways,pl:mixin:APP:figura-common.mixins.json:input.KeyMappingAccessor from mod figura,pl:mixin:APP:figura-common.mixins.json:input.KeyMappingMixin from mod figura,pl:mixin:APP:mixins.essential.json:client.options.KeyBindingAccessor from mod (unknown),pl:mixin:APP:mixins.essential.json:client.settings.Mixin_FixKeyBindingCategorySortingNPE from mod (unknown),pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Options.<init>(Options.java:506) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs.mixins.json:OptionsMixin from mod kubejs,pl:mixin:APP:mixins/common/nochatreports.mixins.json:client.MixinOptions from mod nochatreports,pl:mixin:APP:flywheel.backend.mixins.json:OptionsMixin from mod flywheel,pl:mixin:APP:mixins.essential.json:client.options.GameOptionsAccessor from mod (unknown),pl:mixin:APP:mixins.essential.json:client.options.MixinGameOptions from mod (unknown),pl:mixin:APP:mixins.essential.json:client.settings.Mixin_UnbindConflictingKeybinds_OnLoad from mod (unknown),pl:mixin:APP:mixins.essential.json:client.settings.Mixin_UnbindConflictingKeybinds_OnChange from mod (unknown),pl:mixin:APP:mixins.essential.json:cosmetics.capes.Mixin_RedirectVanillaCapeSetting from mod (unknown),pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:446) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bookshelf.mixins.json:access.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:veil.debug.mixins.json:client.DebugMinecraftMixin from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineMinecraftMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.MinecraftMixin from mod veil,pl:mixin:APP:simulated.mixins.json:handle.MinecraftMixin from mod simulated,pl:mixin:APP:exposure-common.mixins.json:client.MinecraftMixin from mod exposure,pl:mixin:APP:beansbackpacks.mixins.json:client.MinecraftMixin from mod beansbackpacks,pl:mixin:APP:resourcefulconfig.mixins.json:client.MinecraftMixin from mod resourcefulconfig,pl:mixin:APP:kubejs.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:aeronautics.mixins.json:custom_situational_music.MinecraftMixin from mod aeronautics,pl:mixin:APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,pl:mixin:APP:blueprint.mixins.json:client.MinecraftMixin from mod blueprint,pl:mixin:APP:dragonlib.mixins.json:MinecraftMixin from mod dragonlib,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:octolib-common.mixins.json:MinecraftMixin from mod octolib,pl:mixin:APP:railways-common.mixins.json:conductor_possession.MixinMinecraft from mod railways,pl:mixin:APP:mixins/common/nochatreports.mixins.json:client.MixinMinecraft from mod nochatreports,pl:mixin:APP:ae2.mixins.json:PickColorMixin from mod ae2,pl:mixin:APP:flywheel.impl.mixins.json:MinecraftMixin from mod flywheel,pl:mixin:APP:ponder-common.mixins.json:client.WindowResizeMixin from mod ponder,pl:mixin:APP:create.mixins.json:accessor.MinecraftAccessor from mod create,pl:mixin:APP:sable.mixins.json:camera.new_camera_types.MinecraftMixin from mod sable,pl:mixin:APP:sable.mixins.json:plot.MinecraftMixin from mod sable,pl:mixin:APP:sable.mixins.json:punching.MinecraftMixin from mod sable,pl:mixin:APP:figura-common.mixins.json:MinecraftAccesor from mod figura,pl:mixin:APP:figura-common.mixins.json:MinecraftMixin from mod figura,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit from mod (unknown),pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks from mod (unknown),pl:mixin:APP:mixins.essential.json:client.MixinMinecraft from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInScreensThatAllowPlayerMovement from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld from mod (unknown),pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending from mod (unknown),pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent_Final from mod (unknown),pl:mixin:APP:mixins.essential.json:client.gui.Mixin_AllowMovementDuringScreens_HandleKeybinds from mod (unknown),pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.MinecraftAccessor from mod (unknown),pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo from mod (unknown),pl:mixin:A,pl:runtimedistcleaner:A}
+-- Initialization --
+Details:
+	Modules: 
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[client-1.21.1-20240808.144430-srg.jar%23268!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMainMixin from mod veil,pl:mixin:A,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23147!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23147!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.42.jar%23147!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23147!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23152!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) [ForgeWrapper-prism-2025-12-07.jar:prism-2025-12-07] {}
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) [NewLaunch.jar:?] {}
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) [NewLaunch.jar:?] {}
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) [NewLaunch.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Mac OS X (aarch64) version 15.7.3
+	Java Version: 21.0.7, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 945815552 bytes (902 MiB) / 1954545664 bytes (1864 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 10
+	Processor Vendor: Apple Inc.
+	Processor Name: Apple M4
+	Identifier: Apple Inc. Family 0x1b588bb3 Model 0 Stepping 0
+	Microarchitecture: ARM64 SoC: Firestorm + Icestorm
+	Frequency (GHz): 0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 10
+	Number of logical CPUs: 10
+	Graphics card #0 name: Apple M4
+	Graphics card #0 vendor: Apple (0x106b)
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MiB): 0.00
+	Memory slot #0 clockSpeed (GHz): 0.00
+	Memory slot #0 type: unknown
+	Virtual memory max (MiB): 20480.00
+	Virtual memory used (MiB): 14181.06
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 2992.88
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 21244.13, total: 233752.44
+	Space in storage for workdir (MiB): available: 21244.13, total: 233752.44
+	JVM Flags: 2 total; -Xms512m -Xmx8192m
+	Launched Version: 1.21.1
+	Launcher name: PrismLauncher
+	Backend library: LWJGL version 3.3.3+5
+	Backend API: Unknown
+	Window size: <not initialized>
+	GFLW Platform: cocoa
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Is Modded: Definitely; Client brand changed to 'neoforge'
+	Universe: 404
+	Type: Client (map_client.txt)
+	Locale: en_AU
+	System encoding: UTF-8
+	File encoding: UTF-8
+	CPU: <unknown>

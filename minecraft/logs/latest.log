@@ -2622,3 +2622,20 @@ java.lang.IllegalArgumentException: null
 [30Apr2026 20:28:22.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
 [30Apr2026 20:28:22.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
 [30Apr2026 20:28:22.169] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[30Apr2026 20:28:45.221] [DefaultDispatcher-worker-5/ERROR] [KDiscordIPC/]: Received invalid data, assuming that Discord has disconnected from the socket.
+gg.essential.lib.kdiscordipc.core.error.DecodeError$InvalidData: Didn't get to read full data due to the client disconnecting prematurely.
+	at TRANSFORMER/essential@1.3.10.8/gg.essential.lib.kdiscordipc.core.packet.pipeline.ByteToMessageDecoder.decode(ByteToMessageDecoder.kt:16) ~[Essential%20(neoforge_1.21.1).jar%23465!/:?]
+	at TRANSFORMER/essential@1.3.10.8/gg.essential.lib.kdiscordipc.core.socket.handler.SocketHandler$events$1.invokeSuspend(SocketHandler.kt:44) [Essential%20(neoforge_1.21.1).jar%23465!/:?]
+	at LAYER PLUGIN/kotlin.stdlib/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34) [kotlin-stdlib-2.3.0.jar%23426!/:2.3.0-release-356]
+	at LAYER PLUGIN/kotlinx.coroutines.core/kotlinx.coroutines.flow.internal.SafeCollector.invokeSuspend(SafeCollector.kt:60) [kotlinx-coroutines-core-jvm-1.10.2.jar%23411!/:?]
+	at LAYER PLUGIN/kotlin.stdlib/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34) [kotlin-stdlib-2.3.0.jar%23426!/:2.3.0-release-356]
+	at LAYER PLUGIN/kotlinx.coroutines.core/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100) [kotlinx-coroutines-core-jvm-1.10.2.jar%23411!/:?]
+	at LAYER PLUGIN/kotlinx.coroutines.core/kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124) [kotlinx-coroutines-core-jvm-1.10.2.jar%23411!/:?]
+	at LAYER PLUGIN/kotlinx.coroutines.core/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89) [kotlinx-coroutines-core-jvm-1.10.2.jar%23411!/:?]
+	at LAYER PLUGIN/kotlinx.coroutines.core/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586) [kotlinx-coroutines-core-jvm-1.10.2.jar%23411!/:?]
+	at LAYER PLUGIN/kotlinx.coroutines.core/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820) [kotlinx-coroutines-core-jvm-1.10.2.jar%23411!/:?]
+	at LAYER PLUGIN/kotlinx.coroutines.core/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717) [kotlinx-coroutines-core-jvm-1.10.2.jar%23411!/:?]
+	at LAYER PLUGIN/kotlinx.coroutines.core/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704) [kotlinx-coroutines-core-jvm-1.10.2.jar%23411!/:?]
+[30Apr2026 20:28:45.227] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[30Apr2026 20:28:45.227] [Render thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Removed all overlays.
+[30Apr2026 20:28:45.227] [Render thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: All events have been closed.

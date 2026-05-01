@@ -1,8 +1,8 @@
 [
   {"version":1},
+  {"ingredient":{"id":"sgjourney:naquadah_generator_mark_ii"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sgjourney:plasma_converter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sgjourney:naquadah_generator_mark_i"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"sgjourney:naquadah_generator_mark_ii"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sgjourney:zero_point_module"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sgjourney:fusion_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sgjourney:naquadah_generator_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -11,7 +11,7 @@
   {"ingredient":{"id":"sgjourney:syringe","components":{"sgjourney:syringe_contents":"prototype_ata"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sgjourney:naquadah_alloy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sgjourney:classic_dhd"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"sgjourney:milky_way_dhd","components":{"minecraft:block_entity_data":{"crystal_inventory":{"Items":[{"Count":1,"id":"sgjourney:large_control_crystal","Slot":0},{"Count":1,"id":"sgjourney:energy_crystal","Slot":1},{"Count":1,"id":"sgjourney:communication_crystal","Slot":2},{"Count":1,"id":"sgjourney:energy_crystal","Slot":3},{"Count":1,"id":"sgjourney:energy_crystal","Slot":5},{"Count":1,"id":"sgjourney:transfer_crystal","Slot":7}],"Size":9},"id":"sgjourney:milky_way_dhd","energy_inventory":{"Items":[{"Count":1,"id":"sgjourney:fusion_core","Slot":0}],"Size":2},"energy":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:milky_way_dhd","components":{"minecraft:block_entity_data":{"crystal_inventory":{"Items":[{"id":"sgjourney:large_control_crystal","Count":1,"Slot":0},{"id":"sgjourney:energy_crystal","Count":1,"Slot":1},{"id":"sgjourney:communication_crystal","Count":1,"Slot":2},{"id":"sgjourney:energy_crystal","Count":1,"Slot":3},{"id":"sgjourney:energy_crystal","Count":1,"Slot":5},{"id":"sgjourney:transfer_crystal","Count":1,"Slot":7}],"Size":9},"energy_inventory":{"Items":[{"id":"sgjourney:fusion_core","Count":1,"Slot":0}],"Size":2},"id":"sgjourney:milky_way_dhd","energy":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:lodestone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:netherite_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sgjourney:matok"},"type":"item_stack","bookmarkType":"INGREDIENT"},

@@ -35,7 +35,7 @@
 			#If true, it will be possible to power Stargate Journey technology with energy from ZPMs
 			tech_uses_zero_point_energy = true
 			#If true, it will be possible to power technology and cables from other mods with energy from ZPMs
-			other_mods_use_zero_point_energy = false
+			other_mods_use_zero_point_energy = true
 
 		["Stargate Journey Common Config"."DHD Config".server]
 			#The amount by which the Energy Crystal increases a DHD's Energy Target
@@ -215,7 +215,7 @@
 			#The amount of energy cost of keeping the wormhole open each tick for interstellar connections after exceeding the maximum open time
 			# Default: 5000000
 			# Range: 0 ~ 9223372036854775807
-			interstellar_connection_bypass_energy_draw = 5000000
+			interstellar_connection_bypass_energy_draw = 500000000
 			#The amount of energy required to establish a connection outside the galaxy
 			# Default: 100000000000
 			# Range: 0 ~ 9223372036854775807
@@ -227,7 +227,7 @@
 			#The amount of energy cost of keeping the wormhole open each tick for intergalactic connections after exceeding the maximum open time
 			# Default: 5000000000
 			# Range: 0 ~ 9223372036854775807
-			intergalactic_connection_bypass_energy_draw = 5000000000
+			intergalactic_connection_bypass_energy_draw = 500000000000
 			#The maximum amount of energy the Stargate can hold
 			# Default: 1000000000000
 			# Range: 0 ~ 9223372036854775807
@@ -351,7 +351,7 @@
 
 		["Stargate Journey Common Config"."Generation Config".server]
 			#Common Stargates will generate
-			common_stargate_generation = true
+			common_stargate_generation = false
 			#When false, Stargate Network won't include Common Stargates in the search for ungenerated Stargate Structures
 			common_stargate_search = true
 			#X chunk center offset of structures that contain a Stargate

@@ -1,0 +1,13 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"beansbackpacks:backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:physics_assembler"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:rope_connector"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:iron_handle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:rope_coupling"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:archeology_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:memory_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:lapis_lazuli"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:naquadah_generator_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:pda"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

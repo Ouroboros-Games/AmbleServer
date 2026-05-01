@@ -1,6 +1,19 @@
 [
   {"version":1},
-  {"ingredient":{"id":"another_furniture:furniture_hammer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:plasma_converter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:naquadah_generator_mark_i"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:naquadah_generator_mark_ii"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:zero_point_module"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:fusion_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:naquadah_generator_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:syringe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:syringe","components":{"sgjourney:syringe_contents":"ata"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:syringe","components":{"sgjourney:syringe_contents":"prototype_ata"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:naquadah_alloy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:classic_dhd"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sgjourney:milky_way_dhd","components":{"minecraft:block_entity_data":{"crystal_inventory":{"Items":[{"Count":1,"id":"sgjourney:large_control_crystal","Slot":0},{"Count":1,"id":"sgjourney:energy_crystal","Slot":1},{"Count":1,"id":"sgjourney:communication_crystal","Slot":2},{"Count":1,"id":"sgjourney:energy_crystal","Slot":3},{"Count":1,"id":"sgjourney:energy_crystal","Slot":5},{"Count":1,"id":"sgjourney:transfer_crystal","Slot":7}],"Size":9},"id":"sgjourney:milky_way_dhd","energy_inventory":{"Items":[{"Count":1,"id":"sgjourney:fusion_core","Slot":0}],"Size":2},"energy":0}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:lodestone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:netherite_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sgjourney:matok"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sgjourney:jaffa_staff_head"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tempad:timedoor_projector"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -86,6 +99,5 @@
   {"ingredient":{"id":"ae2:calculation_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ae2:logic_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ae2:name_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"create_dragons_plus:levitite_fragile_fluid_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"create_dragons_plus:fragile_fluid_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"create_dragons_plus:levitite_fragile_fluid_tank"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

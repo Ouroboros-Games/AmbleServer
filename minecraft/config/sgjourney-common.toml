@@ -239,7 +239,7 @@
 
 		["Stargate Journey Common Config"."Iris Config".server]
 			#If true, players in Creative Mode will be able to pass through the Stargate even when the Iris is closed on the other side
-			creative_ignores_iris = false
+			creative_ignores_iris = true
 			#The Iris can break any Blocks with Block Strength below the Iris Strength
 			# Default: 0.5
 			# Range: 0.0 ~ 1.7976931348623157E308
@@ -323,11 +323,11 @@
 			#The amount of time in ticks for which the Mark II Naquadah Generator will generate energy from one unit of fuel
 			# Default: 150
 			# Range: 1 ~ 9223372036854775807
-			naquadah_generator_mark_ii_reaction_time = 150
+			naquadah_generator_mark_ii_reaction_time = 25
 			#The amount of FE generated per one tick of reaction by the Mark II Naquadah Generator
 			# Default: 1200
 			# Range: 1 ~ 9223372036854775807
-			naquadah_generator_mark_ii_energy_per_tick = 1200
+			naquadah_generator_mark_ii_energy_per_tick = 5000
 			#The amount of energy a Mark II Naquadah Generator can hold
 			# Default: 1200000
 			# Range: 1 ~ 9223372036854775807
@@ -497,7 +497,7 @@
 			#Percentage of Players who will inherit the Ancient Gene
 			# Default: 30
 			# Range: 0 ~ 100
-			player_ata_gene_inheritance_chance = 30
+			player_ata_gene_inheritance_chance = 15
 			#Percentage of Villagers who will inherit the Ancient Gene
 			# Default: 30
 			# Range: 0 ~ 100

@@ -1,0 +1,21 @@
+filename = 'SGJourney Refreshed.zip'
+name = 'Stargate Journey: Refreshed'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0'
+
+[download]
+hash = 'a21488ec4304072f97ec01db5484a13e3522cad6cb0af3f0afbc26dad51b8f751acd56f8fc33bfa7a288778924aa6a62bf32533d9803a943dd2be7b57a12c628'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nNv6QoI2/versions/8Bfj5J45/SGJourney Refreshed.zip'
+
+[update.modrinth]
+mod-id = 'nNv6QoI2'
+version = '8Bfj5J45'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qlc8dxM6'
+type = 'REQUIRED'

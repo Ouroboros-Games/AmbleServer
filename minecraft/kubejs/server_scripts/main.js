@@ -5,6 +5,20 @@ ServerEvents.recipes( event => {
 
 event.remove({  id: 'dndesires:seething/diamond_shard_from_deepslate_coal_ore' })
 event.remove({  output: 'tempad:time_steel'  })
+event.remove({  id: 'minecraft:lodestone' })
+
+event.shaped(
+  Item.of('minecraft:lodestone', 1), // arg 1: output
+  [
+    'SSS',
+    'SIS', // arg 2: the shape (array of strings)
+    'SSS'
+  ],
+  {
+    S: 'minecraft:chiseled_stone_bricks',
+    I: 'minecraft:iron_ingot'
+  }
+)
 
 event.custom({
   "type": "create:crushing",

@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"another_furniture:furniture_hammer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sgjourney:matok"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"sgjourney:jaffa_staff_head"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tempad:timedoor_projector"},"type":"item_stack","bookmarkType":"INGREDIENT"},

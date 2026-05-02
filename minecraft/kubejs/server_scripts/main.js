@@ -6,6 +6,36 @@ ServerEvents.recipes( event => {
 event.remove({  id: 'dndesires:seething/diamond_shard_from_deepslate_coal_ore' })
 event.remove({  output: 'tempad:time_steel'  })
 event.remove({  id: 'minecraft:lodestone' })
+event.remove({  id: 'sgjourney:crystal_base'  })
+event.remove({  id: 'sgjourney:advanced_crystal_base'})
+
+event.shaped(
+  Item.of('sgjourney:advanced_crystal_base', 1), // arg 1: output
+  [
+    ' GC',
+    'NBG', // arg 2: the shape (array of strings)
+    ' GC'
+  ],
+  {
+    G: 'minecraft:glowstone_dust',
+    C: 'ae2:certus_quartz_crystal',
+    B: 'sgjourney:crystal_base',
+    N: 'sgjourney:pure_naquadah'
+  }
+)
+
+event.shaped(
+  Item.of('sgjourney:crystal_base', 1), // arg 1: output
+  [
+    ' G ',
+    ' C ', // arg 2: the shape (array of strings)
+    ' G '
+  ],
+  {
+    G: 'minecraft:glowstone_dust',
+    C: 'ae2:certus_quartz_crystal'
+  }
+)
 
 event.shaped(
   Item.of('minecraft:lodestone', 1), // arg 1: output

@@ -1,0 +1,47 @@
+{
+  "targets": [
+    "swap"
+  ],
+  "passes": [
+    {
+      "name": "vista:color_grade",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "uniforms": [
+        {
+          "name": "Mul",
+          "values": [
+            1.0,
+            0.3073,
+            0.3073
+          ]
+        },
+        {
+          "name": "Add",
+          "values": [
+            0.0401,
+            0.001,
+            0.001
+          ]
+        },
+        {
+          "name": "Contrast",
+          "values": [
+            1.0862
+          ]
+        },
+        {
+          "name": "Saturation",
+          "values": [
+            1.05
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blit",
+      "intarget": "swap",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}

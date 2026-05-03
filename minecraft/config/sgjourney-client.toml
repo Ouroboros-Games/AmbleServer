@@ -18,7 +18,7 @@
 			#The amount of distortion the Stargate Event Horizon will experience
 			# Default: 25
 			# Range: 0 ~ 25
-			event_horizon_distortion = 25
+			event_horizon_distortion = 10
 			#Decide if Milky Way Stargate should use the Movie Stargate model
 			use_movie_stargate_model = false
 			#If true only the front of the Universe Stargate will rotate

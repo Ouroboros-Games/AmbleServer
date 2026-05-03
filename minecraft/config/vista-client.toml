@@ -20,7 +20,7 @@
 
 	[television.live_feed]
 		#Draws the date and time on the live feed texture
-		draw_date = false
+		draw_date = true
 		#How many times per second the television updates its live feed texture. Lowering this will improve performance but make the video less smooth, fractions work too
 		# Default: 10.0
 		# Range: 0.0 ~ 60.0
